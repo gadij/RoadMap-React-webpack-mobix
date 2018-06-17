@@ -1,1 +1,10 @@
-console.log("Hello world");
+import React from "react";
+import ReactDOM from "react-dom";
+
+const App = () => {
+    return (
+        <div>render my first element</div>
+    );
+}
+
+ReactDOM.render(<App/>, document.getElementById("root"));
