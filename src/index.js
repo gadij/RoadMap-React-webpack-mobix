@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import TextModule from "./textModule";
+
+import './style.css';
 
 const App = () => {
+    // cosnole.log('error');
     return (
-        <div>render my first element</div>
+        <div className="main">
+            <TextModule msg="inside the module!" />
+        </div>
     );
 }
 
